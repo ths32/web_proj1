@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+
+#bbs {
+	width:1000px; /*600px*/
+	margin:30px auto;
+	text-align:left;
+}
+
+#bbs_title {
+	width:1000px; /*574*/
+	padding-left:20px;
+	height:40px;
+	border:3px solid #ffffff; 
+	text-align:left;
+	font-weight: bold;
+	line-height:40px;
+	font-size:30pt;
+	margin-bottom:30px;
+}
+
+
+#bbsArticle {
+	width:1000px; /*600*/
+	overflow: visible;
+	border-top:3px solid #f91c16; /*da2520 C70039*/
+	border-bottom:3px solid #ffffff;
+	text-align:left;
+}
+
+#bbsArticle_header {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #eeeeee; /* solid #eeeeee ; thickness */
+	text-align:left; /* center */
+}
+
+/* #bbsArticle_header da {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #eeeeee; solid #eeeeee ; thickness
+	text-align:left; center
+} */
+
+#bbsArticle dt {
+	float:left;
+	height:35px;
+	width:60px;
+	line-height:35px;
+	text-align:center;
+	background-color:#eeeeee; /* eeeeee */
+}
+
+#bbsArticle dd {
+	float:left;
+	height:35px;
+	width:1000px; /*230*/
+	line-height:35px;
+	text-align:left;
+	padding-left:10px;
+}
+
+.bbsArticle_bottomLine {
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #DBDBDB;
+	clear:both;
+	text-align:center; /*left*/
+}
+.bbsArticle_noLine {
+	height:35px;
+	line-height:35px;
+	clear:both;
+	text-align:center; /*left*/
+}
+
+#bbsArticle_content {
+	overflow: visible;
+	border-bottom:1px solid #DBDBDB; /* 목록 위 */
+	text-align:center; /*left*/
+}
+
+#bbsArticle_footer {
+	clear:both;
+	height:32px;
+	line-height:32px;
+	margin-bottom:20px;
+}
+
+#bbsArticle_footer #leftFooter{
+	float:center; /*left*/
+	width:300px;
+	text-align:center; /*left*/
+}
+#bbsArticle_footer #rightFooter{
+	float:center; 
+	width:300px;
+	text-align:center; /* right*2 */
+
+}

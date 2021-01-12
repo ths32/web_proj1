@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+#bbsList {
+	width:1000px; /*690*/
+	margin:30px auto;
+	text-align:left; /*left*/
+}
+
+#bbsList_title {
+	width:1000px;   /* 690px - (padding-left+border:3px+border:3px) */
+	padding-left:20px;
+	height:40px;
+	border:3px solid #ffffff;
+	text-align:left;
+	font-weight: bold;
+	line-height:40px;
+	font-size:10pt;
+	margin-bottom:30px;
+}
+
+#bbsList_header {
+	height:27px;
+	background-color: #ffffff;
+}
+
+#bbsList_header #leftHeader{
+	float:left;
+	width:345px;
+	text-align:left;
+	background-color: #ffffff;
+}
+#bbsList_header #rightHeader{
+	float:right;
+	width:345px;
+	text-align:right;
+}
+
+#bbsList_header .selectFiled {border:1px solid; border-color:#ffffff; background-color:#ffffff; font-family:굴림; font-size:9pt;}
+#bbsList_header .textFiled {border:1px solid; height:13px; padding:2px 2px 2px 2px; border-color:#ffffff; background-color:#ffffff; font-family:"굴림"; font-size:9pt;}
+
+#bbsList_list {
+	clear:both;
+}
+
+#bbsList_list dd {
+	float:left;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+}
+
+#bbsList_list #title {
+	text-align: center; /*no*/
+	width:1000px; /*no*/
+	align:center; /*center*/
+	height:30px; /*30*/
+	border-top:2px solid #f91c16; /* CCCCCC */ /*da2520 C70039*/
+	border-bottom:1px solid #CCCCCC;
+	background-color: #ffffff; /* E6E4E6 */
+}
+
+#bbsList_list #title dl {
+	height:27px;
+	border-left:0px solid #ffffff; /* 5db062 */
+	border-right:0px solid #ffffff;
+}
+
+#bbsList_list #title dt {
+	float:left;
+	line-height:34px;
+	text-align:center;
+}
+
+#bbsList_list .num {width:50px;}
+#bbsList_list .subject {width:720px;}/*420*/
+#bbsList_list .name {width:90px;}
+#bbsList_list .created {width:65px;}
+#bbsList_list .hitCount {width:60px;}
+
+#bbsList_list #lists {
+	clear:both;
+	align:center; /*no*/
+}
+
+#bbsList_list #lists dl {
+	float:left;
+	border-bottom:1px solid #E4E4E4; /* E4E4E4 */
+	width:1000px; /*no*/
+}
+
+#bbsList_list dd.subject {
+	width:410px; /*410*/
+	margin-left:10px;
+	text-align:left;
+}
+#bbsList_list a {
+	line-height: 27px;
+}
+
+#bbsList_list #footer {
+	clear:both;
+	height:32px;
+	line-height:32px;
+	margin-top:5px;
+	text-align:center;
+}
+
+
